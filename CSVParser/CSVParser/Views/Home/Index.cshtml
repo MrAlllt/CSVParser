@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Parse";
+}
+
+@section Header
+{
+    <header>
+        <div class="header">CSV Parser</div>
+    </header>
+}
+
+<div class="file-add--container">
+    <form id="form-file" enctype="multipart/form-data">
+        <div class="file-add--container-input">
+            <input type="file" accept="text/csv" name="csvFile" id="csv-file">
+        </div>
+        <div class="row btn-options">
+            <button class="btn-std" id="parse-button" type="submit">Parse</button>
+            <div id="options" class="not-shown">
+                <div class="row row-options">
+                    <label class="checkbox-label">
+                        <input onclick="toggleClass($('#customProperties'), 'not-shown');" class="checkbox" checked id="firstLineAsProperties" type="checkbox">First line contains properties' names
+                    </label>
+                    <div class="separator-div">
+                        <input id="separator" type="text" class="separator" maxlength="1" value=","><label for="separator" class="label">Separator</label>
+                    </div>
+                </div>
+                <div class="row row-options">
+                    <label class="checkbox-label">
+                        <input class="checkbox" id="linesCustomActivator" type="checkbox">Custom number of Lines
+                    </label>
+                    <div class="customLinesNumber">
+                        <input type="number" id="linesCustom" disabled>
+                    </div>
+                </div>
+                <div id="customProperties" class="not-shown"></div>
+            </div>
+        </div>
+    </form>
+    <div id="properties" class="not-shown row">
+        
+    </div>
+    <div id="error" class="not-shown"></div>
+    <div class="file-add--container-preview">
+        <h2 class="h2--preview">Code Preview</h2>
+        <div class="preview"></div>
+    </div>
+</div>

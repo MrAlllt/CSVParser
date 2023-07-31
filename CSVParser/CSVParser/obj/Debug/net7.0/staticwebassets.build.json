@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "8VOBvEYY3Jy2k6jV/mTS2f9G7vHRD/3l1aiVqG2Q/Pk=",
+  "Source": "CSVParser",
+  "BasePath": "_content/CSVParser",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CSVParser\\wwwroot",
+      "Source": "CSVParser",
+      "ContentRoot": "N:\\.NET\\CSVParser\\CSVParser\\CSVParser\\wwwroot\\",
+      "BasePath": "_content/CSVParser",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "N:\\.NET\\CSVParser\\CSVParser\\CSVParser\\obj\\Debug\\net7.0\\scopedcss\\bundle\\CSVParser.styles.css",
+      "SourceId": "CSVParser",
+      "SourceType": "Computed",
+      "ContentRoot": "N:\\.NET\\CSVParser\\CSVParser\\CSVParser\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/CSVParser",
+      "RelativePath": "CSVParser.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "N:\\.NET\\CSVParser\\CSVParser\\CSVParser\\obj\\Debug\\net7.0\\scopedcss\\bundle\\CSVParser.styles.css"
+    },
+    {
+      "Identity": "N:\\.NET\\CSVParser\\CSVParser\\CSVParser\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CSVParser.bundle.scp.css",
+      "SourceId": "CSVParser",
+      "SourceType": "Computed",
+      "ContentRoot": "N:\\.NET\\CSVParser\\CSVParser\\CSVParser\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/CSVParser",
+      "RelativePath": "CSVParser.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "N:\\.NET\\CSVParser\\CSVParser\\CSVParser\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CSVParser.bundle.scp.css"
+    },
+    {
+      "Identity": "N:\\.NET\\CSVParser\\CSVParser\\CSVParser\\wwwroot\\css\\site.css",
+      "SourceId": "CSVParser",
+      "SourceType": "Discovered",
+      "ContentRoot": "N:\\.NET\\CSVParser\\CSVParser\\CSVParser\\wwwroot\\",
+      "BasePath": "_content/CSVParser",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "N:\\.NET\\CSVParser\\CSVParser\\CSVParser\\wwwroot\\js\\site.js",
+      "SourceId": "CSVParser",
+      "SourceType": "Discovered",
+      "ContentRoot": "N:\\.NET\\CSVParser\\CSVParser\\CSVParser\\wwwroot\\",
+      "BasePath": "_content/CSVParser",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
+}
